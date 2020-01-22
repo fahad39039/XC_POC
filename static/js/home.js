@@ -1,3 +1,5 @@
 $(document).ready(function() {
-  $('#datatable').DataTable();
+  $('#datatable').DataTable({
+  "scrollX": true
+  });
 } );
